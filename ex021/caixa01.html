@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixa</title>
+    <style>
+        h1{
+            /* box-level */
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            /*configurações da caixa (cor altura e largura */
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+             /* configurações da borda */
+
+            border: 10px solid darkslategray; 
+            /* conf e, short hand da borda*/
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+             /*preenchimento que fica entre a borda e o conteudo */
+
+            padding: 10px; 
+            /* short hand de padding "caso todas a medidas sejam iguais pode se usar apenas um comendo de medido, caso contrario especificar cada um no sentido horario"*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /*medidas da margem*/
+
+            margin: 10px;
+             /* short hand de margin "caso todas a medidas sejam iguais pode se usar apenas um comendo de medido, caso contrario especificar cada um no sentido horario"*/ 
+
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: darkblue; 
+            /*medidas de outline*/
+
+            outline: 10px dashed darkblue;
+            /*shorthand de outline, usando a orde de tamanho, estilo e cor*/
+        }
+        a{
+            /* inline-level */
+            border-width: 10px;
+            border-color: rgb(21, 255, 0);
+            border-style: solid;
+             /* conf da caixa inline-level. */
+
+            border: 10px solid rgb(21, 255, 0);
+            /* shorthand das conf da caixa inline-level */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level.</h1>
+    <p>Paragrafos tbm sao exemplos de box-level, mas os <a href="#">links sao exemplos de caixas inline-level</a>. Vamos ver como isso funciona.</p>
+    
+</body>
+</html>
