@@ -52,8 +52,8 @@ header a:hover, footer a:hover{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 3.5vw;
@@ -63,6 +63,7 @@ section{
 
 section > p {
     padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 section.normal {
@@ -94,6 +95,7 @@ section.imagem > p {
     color: white;
     text-shadow: 1px 1px 0px black;
     width: 400px;
+    padding-left: 30px;
 }
 
 footer {
