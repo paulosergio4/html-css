@@ -1,0 +1,245 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Titillium+Web&display=swap');
+@font-face {
+    font-family: 'fonteLogo';
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dddddd; 
+    font-size: 12px;
+}
+
+div#interface{
+    width: 90%;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 650px;
+    top: 70px;
+}
+
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
+}
+
+header#cabecalho h1{
+    font-family: 'fonteLogo', Helvetica, sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+nav#menu {
+    display: block;
+    font-size: 0.7em;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 390px;
+}
+nav#menu li {
+    display:inline-block;
+    background-color: #dddddd;
+    padding: 7px;
+    margin: -1px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+section#corpo{
+    display: block;
+    width: 390px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+article h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+
+aside#lateral {
+    display: block;
+    width: 325px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+aside#lateral h1 {
+    font-family: 'fonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    padding: 5px;
+    color: white;
+}
+
+footer#rodape p {
+    clear: both;
+    border-top: 1px solid #606060;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: black;
+}
+
+footer#rodape a#social:hover{
+    text-decoration: underline;
+}
+
+figure.foto-legenda {
+    position: relative; /**/
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: white;;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+table caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+td.ce{
+    background-color: #606060;
+    font-weight: bolder;
+    color: white;
+}
+
+td.cd{
+    background-color:  #888888;
+    font-weight: bolder;
+    color: black;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #606060;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article header h1 {
+    font-family: 'fonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+.direita{
+    text-align: right;
+    font-size: small;
+}
+
+article header h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: white;
+    margin: 0px;
+}
+
+article header h3 {
+    font-size: 12pt;
+    color: #606060;
+}
+

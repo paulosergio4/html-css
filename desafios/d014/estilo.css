@@ -23,3 +23,7 @@ tr.med{
     background-color: gray;
     color: white;
 }
+
+div#container{
+    overflow-x: auto;
+}
