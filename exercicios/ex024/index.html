@@ -2,89 +2,33 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabela</title>
-    
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        table{
-            width: 700px;
-            text-align: center;
-            border-collapse: collapse;
-        }
-
-        caption{
-            text-align: center;
-            
-        }
-
-        td, th{
-            border: 1px solid black;
-            padding: 10px;
-            
-        }
-
-    </style>
-    
+    <title>Iframe</title>
 </head>
 <body>
-    <h1>Exercico de tabela </h1>
-    <table>
-        <caption>
-            Filmes Favoritos
-        </caption>
-        <thead>
-            <tr>
-                <th scope="col">Grupo</th>
-                <th scope="col">Nomes</th>
-                <th colspan="3" scope="colgroup">Filmes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="3" scope="rowgroup">Mulheres</th>
-                <td>Ana Maria Santos</td>
-                <td>Alien</td>
-                <td>Rambo</td>
-                <td>Vingadores</td>
-            </tr>
-            <tr>
-                <td>Beatriz Souza</td>
-                <td>Hulk</td>
-                <td>Inception</td>
-                <td>Batman</td>
-            </tr>
-            <tr>
-                <td>Claudia melo</td>
-                <td>Oblivion</td>
-                <td>Matrix</td>
-                <td>Big Hero</td>
-            </tr>
-            <tr>
-                <th rowspan="3" scope="rowgroup">Homens</th>
-                <td>Bruno Mendonça</td>
-                <td>Intocáveis</td>
-                <td>Amnésia</td>
-                <td>Gladiador</td>
-            </tr>
-            <tr>
-                <td>Daniel Lourenço</td>
-                <td>Wall-e</td>
-                <td>Oldboy</td>
-                <td>Dangal</td>
-            </tr>
-            <tr>
-                <td>Fabiano Mota</td>
-                <td>Star War 5</td>
-                <td>Taxi Driver</td>
-                <td>Toy Story</td>
-            </tr>
-        </tbody>
-    </table>
-    
+
+    <h1>Testando Iframes </h1>
+
+    <p> 
+        Acessando o site do
+
+        <!-- Tamanho padrão é 300x150-->
+
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scolling="no">
+            <a href="https://www.cursoemvideo.com"> Curso em video </a>
+        </iframe>
+        
+        para aprender programar
+    </p>
+
+    <p>
+       O repositorio do guanabara
+       
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">
+          do <a href="https://gustavoguanabara.github.io"> Guanabara </a>
+        </iframe>
+
+       tambem é muito bom.
+    </p>
 </body>
 </html>
