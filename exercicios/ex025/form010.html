@@ -11,17 +11,22 @@
         <legend>Nivel de satisfação</legend>
         <form action="cadastro.php" method="get" autocomplete="on">
             <p>
-                <label for="in1">Numero 1:</label>
-                <input type="number" name="num1" id="in1" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                <label for="iano">Em que ano você nasceu?</label>
+                <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="calcIdade()">
             </p>
+
             <p>
-                <label for="in2">Numero 2:</label>
-                <input type="number" name="num2" id="in2" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+                <label for="iidd">Sua idade é: </label>
+                <output id="iidd">0</output>
             </p>
+
             <p>
-                <label for="isoma">Soma </label>
-                <output id="isoma" name="soma">0</output>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
             </p>
         </form>
+    </fieldset>
+    <script src="script.js"></script>
+
 </body>
 </html>

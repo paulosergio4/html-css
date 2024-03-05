@@ -11,25 +11,16 @@
         <legend>Nivel de satisfação</legend>
         <form action="cadastro.php" method="get" autocomplete="on">
             <p>
-                <label for="icor">cor:</label>
-                <input type="color" name="cor" id="icor">
+                <label for="inum">Numero:</label>
+                <input type="range" name="num" id="inum" min="0" max="100"  oninput="ival.innerHTML = Number(inum.value)">
+                <output id="ival">50</output>
             </p>
-            <p>
-                <label for="iniv">Nivel de satisfção</label>
-                <input type="range" name="niv" id="iniv" max="10" min="1" value="5">
-            </p>
-            <p>
-                <label for="ifot">Foto de Perfil</label>
-                <input type="file" name="Fot" id="ifot">
-                <!--Para enviar algum arquivo ate tres mil bites usar o metodo post ao inves do get-->
-            </p>
+
             <p>
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
             </p>
         </form>
     </fieldset>
-
-    <script src="script.js"></script>
 </body>
 </html>
